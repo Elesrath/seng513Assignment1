@@ -4,17 +4,17 @@ body {
 
 header {
     text-align: center;
-    color: white;
+    background: green;
 }
 
 nav {
     text-align: left;
     float: left;
-    color: red;
+    background: red;
 }
 
 article {
     text-align: left;
     float: left;
-    color: green;
+    background: yellow;
 }
