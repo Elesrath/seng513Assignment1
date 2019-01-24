@@ -1,3 +1,20 @@
-body{
+body {
     background-color: aqua;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: left;
+    float: left;
+    color: red;
+}
+
+article {
+    text-align: left;
+    float: left;
+    color: green;
 }
