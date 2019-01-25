@@ -4,17 +4,34 @@ body {
 
 header {
     text-align: center;
+    padding: 30px;
     background: green;
 }
 
 nav {
     text-align: left;
     float: left;
-    background: red;
+    width: 10%;
+    padding: 30px;
+    background: pink;
 }
 
 article {
     text-align: left;
     float: left;
+    width: 70%;
+    padding: 20px;
     background: yellow;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: orange;
 }
