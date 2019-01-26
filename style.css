@@ -1,5 +1,5 @@
 body {
-    background-color: purple;
+    background-color: aqua;
 }
 
 header {
@@ -19,7 +19,7 @@ nav {
 article {
     text-align: left;
     float: left;
-    width: 70%;
+    width: 80%;
     padding: 20px;
     background-color: yellow;
 }
@@ -36,6 +36,6 @@ footer {
     background-color: orange;
 }
 
-.bob {
-    background-color: aquamarine;
+.sameLength {
+    display: flex;
 }
