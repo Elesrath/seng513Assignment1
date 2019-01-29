@@ -11,16 +11,14 @@
 
 .navigation {
     float: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 20%;
-
+    padding: 10px;
+    width: auto;
     background-color: green;
 }
 
 .content {
     float: left;
-    width: 80%;
+    width: 100%;
 }
 
 .image {
