@@ -1,41 +1,46 @@
-body {
+.header {
     background-color: aqua;
+    padding: 10px;
+    text-align: center;
 }
 
-header {
-    text-align: center;
-    padding: 30px;
+.middle {
+    background-color: red;
+    display: flex;
+}
+
+.navigation {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 20%;
+
     background-color: green;
 }
 
-nav {
-    text-align: left;
-    float: left;
-    width: 10%;
-    padding: 30px;
-    background-color: pink;
-}
-
-article {
-    text-align: left;
+.content {
     float: left;
     width: 80%;
-    padding: 20px;
-    background-color: yellow;
 }
 
-section:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
+.image {
     background-color: orange;
+    padding: 10px;
 }
 
-.sameLength {
-    display: flex;
+.article {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.footer {
+    background-color: brown;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+}
+
+.paddedTextNoMargin {
+    margin: 0;
+    padding-left: 10px;
 }
