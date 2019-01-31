@@ -1,11 +1,10 @@
 .header {
-    background-color: aqua;
+    background-color: rgba(90, 138, 195, .5);
     padding: 10px;
     text-align: center;
 }
 
 .middle {
-    background-color: red;
     display: flex;
 }
 
@@ -13,7 +12,7 @@
     float: left;
     padding: 10px;
     width: auto;
-    background-color: green;
+    background-color: rgba(200, 208, 224, .5);
 }
 
 .content {
@@ -22,23 +21,40 @@
 }
 
 .image {
-    background-color: orange;
+    background-color: rgba(100, 194, 218, .5);
     padding: 10px;
+    text-align: center;
 }
 
 .article {
-    background-color: yellow;
+    background-color: rgba(179, 196, 220, .5);
     padding: 10px;
 }
 
 .footer {
-    background-color: brown;
+    background-color: rgba(150, 208, 224, .5);
     padding: 10px;
     clear: both;
     text-align: center;
 }
 
-.paddedTextNoMargin {
-    margin: 0;
-    padding-left: 10px;
+.finePrint {
+    font-size: 12px;
+    text-shadow: 0 0 2px white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #CAD2DF;
+    background-image: url("Columbia_icefield_view.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-shadow: 0 0 2px white;
 }
