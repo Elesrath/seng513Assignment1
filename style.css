@@ -29,6 +29,7 @@
 .article {
     background-color: rgba(179, 196, 220, .8);
     padding: 10px;
+    text-align: center;
 }
 
 .footer {
@@ -77,4 +78,14 @@ h1 {
 
 .navActive {
     background-color: green;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: auto;
+    margin: 10px auto;
 }
